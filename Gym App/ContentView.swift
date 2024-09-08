@@ -20,6 +20,7 @@ struct ContentView: View {
 
                     Spacer()
                 }
+                .padding(.bottom, 30)
                 .toolbar {
                     // Leading item
                     ToolbarItem(placement: .navigationBarLeading) {
@@ -65,14 +66,36 @@ struct ContentView: View {
                     
                     // Bottom bar
                     ToolbarItem(placement: .bottomBar) {
-                        HStack {
-                            SButtonView(SButton: SButton(symbol: "person"))
-                            SButtonView(SButton: SButton(symbol: "calendar"))
-                            SButtonView(SButton: SButton(symbol: "note"))
-                            SButtonView(SButton: SButton(symbol: "book"))
-                        }
-                        .scaleEffect(1.8)
+                            HStack {
+                                SButtonView(SButton: SButton(symbol: "person"))
+                                    .scaleEffect(1.5)
+                                    .foregroundColor(Color("MainColor"))
+                                    .background(Color(.white).opacity(0.15).clipShape(RoundedRectangle(cornerRadius: 8)).scaleEffect(1.4))
+                                    .disabled(/*@START_MENU_TOKEN@*/true/*@END_MENU_TOKEN@*/)
+                                    
+                                
+                                Spacer()
+                                
+                                SButtonView(SButton: SButton(symbol: "calendar"))
+                                    .scaleEffect(1.5)
+                                
+                                Spacer()
+                                
+                                SButtonView(SButton: SButton(symbol: "note"))
+                                    .scaleEffect(1.5)
+                                
+                                Spacer()
+                                
+                                SButtonView(SButton: SButton(symbol: "book"))
+                                    .scaleEffect(1.5)
+                            }
+                            .padding(.horizontal, 30) // Add horizontal padding for spacing
+                            .offset(x: 0, y: 15)
+                            .background(Color(.gray).ignoresSafeArea().scaleEffect(3).offset(x: 0, y: 30).opacity(0.6))
+                            .foregroundColor(.white)
                     }
+
+
                 }
                 .foregroundColor(Color("MainColor"))
             }

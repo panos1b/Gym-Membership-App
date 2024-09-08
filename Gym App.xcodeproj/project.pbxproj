@@ -98,12 +98,12 @@
 		6B4962732C8C84B10022832B /* Gym App */ = {
 			isa = PBXGroup;
 			children = (
+				6B4962A02C8DFD860022832B /* ButtonView.swift */,
 				6B49629E2C8C902E0022832B /* AppointmentView.swift */,
 				6B4962742C8C84B10022832B /* Gym_AppApp.swift */,
 				6B4962762C8C84B10022832B /* ContentView.swift */,
 				6B4962782C8C84B30022832B /* Assets.xcassets */,
 				6B49627A2C8C84B30022832B /* Preview Content */,
-				6B4962A02C8DFD860022832B /* ButtonView.swift */,
 			);
 			path = "Gym App";
 			sourceTree = "<group>";
