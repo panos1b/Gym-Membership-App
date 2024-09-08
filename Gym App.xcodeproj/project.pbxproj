@@ -14,6 +14,8 @@
 		6B4962862C8C84B30022832B /* Gym_AppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B4962852C8C84B30022832B /* Gym_AppTests.swift */; };
 		6B4962902C8C84B30022832B /* Gym_AppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B49628F2C8C84B30022832B /* Gym_AppUITests.swift */; };
 		6B4962922C8C84B30022832B /* Gym_AppUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B4962912C8C84B30022832B /* Gym_AppUITestsLaunchTests.swift */; };
+		6B49629F2C8C902E0022832B /* AppointmentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B49629E2C8C902E0022832B /* AppointmentView.swift */; };
+		6B4962A12C8DFD860022832B /* ButtonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B4962A02C8DFD860022832B /* ButtonView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +46,8 @@
 		6B49628B2C8C84B30022832B /* Gym AppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Gym AppUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		6B49628F2C8C84B30022832B /* Gym_AppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Gym_AppUITests.swift; sourceTree = "<group>"; };
 		6B4962912C8C84B30022832B /* Gym_AppUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Gym_AppUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		6B49629E2C8C902E0022832B /* AppointmentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppointmentView.swift; sourceTree = "<group>"; };
+		6B4962A02C8DFD860022832B /* ButtonView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ButtonView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -94,10 +98,12 @@
 		6B4962732C8C84B10022832B /* Gym App */ = {
 			isa = PBXGroup;
 			children = (
+				6B49629E2C8C902E0022832B /* AppointmentView.swift */,
 				6B4962742C8C84B10022832B /* Gym_AppApp.swift */,
 				6B4962762C8C84B10022832B /* ContentView.swift */,
 				6B4962782C8C84B30022832B /* Assets.xcassets */,
 				6B49627A2C8C84B30022832B /* Preview Content */,
+				6B4962A02C8DFD860022832B /* ButtonView.swift */,
 			);
 			path = "Gym App";
 			sourceTree = "<group>";
@@ -258,6 +264,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				6B4962772C8C84B10022832B /* ContentView.swift in Sources */,
+				6B49629F2C8C902E0022832B /* AppointmentView.swift in Sources */,
+				6B4962A12C8DFD860022832B /* ButtonView.swift in Sources */,
 				6B4962752C8C84B10022832B /* Gym_AppApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

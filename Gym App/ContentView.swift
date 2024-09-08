@@ -78,42 +78,6 @@ struct ContentView: View {
         }
     }
 }
-struct BigButton {
-    var ammount: String
-    var tittle: String
-    var size: Double
-}
-struct SButton {
-    var symbol: String
-}
-
-struct BigButtonView: View{
-    let BigButton: BigButton
-    var body: some View {
-        VStack {
-            Button(action: {
-                // Action for the first button
-            }) {
-                Text(BigButton.ammount)
-                    .font(.system(size: CGFloat(70 * BigButton.size)))
-                    .frame(width: CGFloat(100 * BigButton.size), height: CGFloat(100 * BigButton.size))
-                    .background(Color("MainColor"))
-                    .foregroundColor(Color("SupplementaryColor"))
-                    .clipShape(RoundedRectangle(cornerRadius: 20)) // Rounded corners
-            }
-            Text(BigButton.tittle)
-                .bold()
-        }
-    }
-}
-
-struct SButtonView: View {
-    let SButton: SButton
-    var body: some View {
-        Image(systemName: SButton.symbol)
-            .padding(6)
-    }
-}
 
 #Preview {
     ContentView()
