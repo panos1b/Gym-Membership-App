@@ -6,6 +6,8 @@ struct ContentView: View {
         NavigationView {
             VStack {
                 VStack {
+                    Spacer()
+                    
                     BigButtonView(BigButton: BigButton(ammount: "1", tittle: "ΣΥΝΔΡΟΜΕΣ", size: 1))
                     
                     Spacer()
@@ -16,9 +18,8 @@ struct ContentView: View {
                     
                     BigButtonView(BigButton: BigButton(ammount: "1", tittle: "ΜΗΝΥΜΑΤΑ", size: 1))
 
-                    
+                    Spacer()
                 }
-                .padding(90)
                 .toolbar {
                     // Leading item
                     ToolbarItem(placement: .navigationBarLeading) {
