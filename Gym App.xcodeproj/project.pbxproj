@@ -17,6 +17,7 @@
 		6B49629F2C8C902E0022832B /* AppointmentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B49629E2C8C902E0022832B /* AppointmentView.swift */; };
 		6B4962A12C8DFD860022832B /* ButtonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B4962A02C8DFD860022832B /* ButtonView.swift */; };
 		6B7FFA662CC4195D0084D239 /* LCardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B7FFA652CC4195D0084D239 /* LCardView.swift */; };
+		6B7FFA682CC423390084D239 /* TopBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B7FFA672CC423390084D239 /* TopBar.swift */; };
 		6B8003D52CB1A9480041F029 /* CardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B8003D42CB1A9480041F029 /* CardView.swift */; };
 /* End PBXBuildFile section */
 
@@ -51,6 +52,7 @@
 		6B49629E2C8C902E0022832B /* AppointmentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppointmentView.swift; sourceTree = "<group>"; };
 		6B4962A02C8DFD860022832B /* ButtonView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ButtonView.swift; sourceTree = "<group>"; };
 		6B7FFA652CC4195D0084D239 /* LCardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LCardView.swift; sourceTree = "<group>"; };
+		6B7FFA672CC423390084D239 /* TopBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TopBar.swift; sourceTree = "<group>"; };
 		6B8003D42CB1A9480041F029 /* CardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -102,6 +104,7 @@
 		6B4962732C8C84B10022832B /* Gym App */ = {
 			isa = PBXGroup;
 			children = (
+				6B7FFA672CC423390084D239 /* TopBar.swift */,
 				6B4962A02C8DFD860022832B /* ButtonView.swift */,
 				6B49629E2C8C902E0022832B /* AppointmentView.swift */,
 				6B4962742C8C84B10022832B /* Gym_AppApp.swift */,
@@ -269,6 +272,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6B7FFA682CC423390084D239 /* TopBar.swift in Sources */,
 				6B4962772C8C84B10022832B /* ContentView.swift in Sources */,
 				6B49629F2C8C902E0022832B /* AppointmentView.swift in Sources */,
 				6B4962A12C8DFD860022832B /* ButtonView.swift in Sources */,
