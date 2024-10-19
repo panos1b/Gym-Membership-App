@@ -19,6 +19,8 @@ struct AppointmentView: View {
                     AppointmentCardView(appointmentCard: AppointmentCard(category: "Σάββατο | 19/10 | 7:30", description: "Empower"))
                     AppointmentCardView(appointmentCard: AppointmentCard(category: "Σάββατο | 19/10 | 18:00", description: "TMO strength"))
                     AppointmentCardView(appointmentCard: AppointmentCard(category: "Παρασκευή | 25/10 | 18:00", description: "TMO strength"))
+                    AppointmentCardView(appointmentCard: AppointmentCard(category: "Σάβαττο | 26/10 | 10:00", description: "Empower"))
+                    
                     
 
                 }
