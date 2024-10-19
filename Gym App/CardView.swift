@@ -75,7 +75,7 @@ struct CardTestView: View {
 }
 
 // Preview
-struct ContentView_Previews: PreviewProvider {
+struct AppointmentCard_Previews: PreviewProvider {
     static var previews: some View {
         CardTestView()
     }
