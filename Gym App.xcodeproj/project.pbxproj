@@ -19,7 +19,9 @@
 		6B7FFA662CC4195D0084D239 /* LCardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B7FFA652CC4195D0084D239 /* LCardView.swift */; };
 		6B7FFA682CC423390084D239 /* TopBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B7FFA672CC423390084D239 /* TopBar.swift */; };
 		6B8003D52CB1A9480041F029 /* CardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B8003D42CB1A9480041F029 /* CardView.swift */; };
+		6BD0BD562CCC013A00A36B0A /* BookingResultsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6BD0BD552CCC013A00A36B0A /* BookingResultsView.swift */; };
 		6BE8F45F2CC587100083B54E /* BookingSelectorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6BE8F45E2CC587100083B54E /* BookingSelectorView.swift */; };
+		6BFD9A382CCE35780030FD3C /* BottomBarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6BFD9A372CCE35780030FD3C /* BottomBarView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -55,7 +57,9 @@
 		6B7FFA652CC4195D0084D239 /* LCardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LCardView.swift; sourceTree = "<group>"; };
 		6B7FFA672CC423390084D239 /* TopBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TopBar.swift; sourceTree = "<group>"; };
 		6B8003D42CB1A9480041F029 /* CardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardView.swift; sourceTree = "<group>"; };
+		6BD0BD552CCC013A00A36B0A /* BookingResultsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BookingResultsView.swift; sourceTree = "<group>"; };
 		6BE8F45E2CC587100083B54E /* BookingSelectorView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BookingSelectorView.swift; sourceTree = "<group>"; };
+		6BFD9A372CCE35780030FD3C /* BottomBarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BottomBarView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -116,6 +120,8 @@
 				6B8003D42CB1A9480041F029 /* CardView.swift */,
 				6B7FFA652CC4195D0084D239 /* LCardView.swift */,
 				6BE8F45E2CC587100083B54E /* BookingSelectorView.swift */,
+				6BD0BD552CCC013A00A36B0A /* BookingResultsView.swift */,
+				6BFD9A372CCE35780030FD3C /* BottomBarView.swift */,
 			);
 			path = "Gym App";
 			sourceTree = "<group>";
@@ -275,8 +281,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6BD0BD562CCC013A00A36B0A /* BookingResultsView.swift in Sources */,
 				6B7FFA682CC423390084D239 /* TopBar.swift in Sources */,
 				6BE8F45F2CC587100083B54E /* BookingSelectorView.swift in Sources */,
+				6BFD9A382CCE35780030FD3C /* BottomBarView.swift in Sources */,
 				6B4962772C8C84B10022832B /* ContentView.swift in Sources */,
 				6B49629F2C8C902E0022832B /* AppointmentView.swift in Sources */,
 				6B4962A12C8DFD860022832B /* ButtonView.swift in Sources */,

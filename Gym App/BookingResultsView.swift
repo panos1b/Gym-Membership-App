@@ -1,13 +1,14 @@
 //
-//  AppointmentView.swift
+//  BookingResultsView.swift
 //  Gym App
 //
-//  Created by Panos Daskalopoulos on 7/9/24.
+//  Created by Panos Daskalopoulos on 25/10/24.
 //
 
 import SwiftUI
-
-struct AppointmentView: View {
+// FIXME
+// FIXME
+struct BookingResultsView: View {
     @Environment(\.colorScheme) var colorScheme
     var body: some View {
         NavigationView {
@@ -26,16 +27,16 @@ struct AppointmentView: View {
                 }
                 .toolbar {
                     // Bottom bar
-
+                    ToolbarItem(placement: .bottomBar) {
+                    }
                 }
                 .foregroundColor(Color("MainColor"))
             }
         }
-        BottomBarView(selected: 1)
     }
 }
 
 
 #Preview {
-    AppointmentView()
+    BookingResultsView()
 }

@@ -17,6 +17,7 @@ struct BigButton {
 // Define SButton struct
 struct SButton {
     var symbol: String
+    var enabled: Bool
 }
 
 // Define BigButtonView
@@ -44,7 +45,17 @@ struct BigButtonView: View {
 struct SButtonView: View {
     let SButton: SButton
     var body: some View {
-        Image(systemName: SButton.symbol)
-            .padding(6)
+        if SButton.enabled{
+            Image(systemName: SButton.symbol)
+                .padding(6)
+                .foregroundColor(Color("MainColor"))
+                .background(Color(.white).opacity(0.15).clipShape(RoundedRectangle(cornerRadius: 8)).scaleEffect(1.2))
+                .disabled(/*@START_MENU_TOKEN@*/true/*@END_MENU_TOKEN@*/)
+                .scaleEffect(1.3)
+        } else {
+            Image(systemName: SButton.symbol)
+                .padding(6)
+                .scaleEffect(1.3)
+        }
     }
 }

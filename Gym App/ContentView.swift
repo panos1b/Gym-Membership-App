@@ -17,10 +17,9 @@ struct ContentView: View {
                     Spacer()
                     
                     BigButtonView(BigButton: BigButton(ammount: "1", tittle: "ΜΗΝΥΜΑΤΑ", size: 1))
-
+                    
                     Spacer()
                 }
-                .padding(.bottom, 30)
                 .toolbar {
                     // Leading item
                     ToolbarItem(placement: .navigationBarLeading) {
@@ -34,6 +33,7 @@ struct ContentView: View {
                                     .padding(1)
                                 Text("Κλήση")
                             }
+                            .offset(x: 0, y: 15)
                         }
                     }
                     
@@ -47,6 +47,7 @@ struct ContentView: View {
                                 .frame(width: 220, height: 200)
                                 .colorInvert()
                         }
+                        .offset(x: 0, y: 15)
                     }
                     
                     // Trailing item
@@ -61,45 +62,15 @@ struct ContentView: View {
                                     .padding(1)
                                 Text("Έξοδος")
                             }
+                            .offset(x: 0, y: 15)
                         }
                     }
                     
-                    // Bottom bar
-                    ToolbarItem(placement: .bottomBar) {
-                            HStack {
-                                SButtonView(SButton: SButton(symbol: "person"))
-                                    .scaleEffect(1.5)
-                                    .foregroundColor(Color("MainColor"))
-                                    .background(Color(.white).opacity(0.15).clipShape(RoundedRectangle(cornerRadius: 8)).scaleEffect(1.4))
-                                    .disabled(/*@START_MENU_TOKEN@*/true/*@END_MENU_TOKEN@*/)
-                                    
-                                
-                                Spacer()
-                                
-                                SButtonView(SButton: SButton(symbol: "calendar"))
-                                    .scaleEffect(1.5)
-                                
-                                Spacer()
-                                
-                                SButtonView(SButton: SButton(symbol: "note"))
-                                    .scaleEffect(1.5)
-                                
-                                Spacer()
-                                
-                                SButtonView(SButton: SButton(symbol: "book"))
-                                    .scaleEffect(1.5)
-                            }
-                            .padding(.horizontal, 30) // Add horizontal padding for spacing
-                            .offset(x: 0, y: 15)
-                            .background(Color(.gray).ignoresSafeArea().scaleEffect(3).offset(x: 0, y: 30).opacity(0.6))
-                            .foregroundColor(.white)
-                    }
-
-
                 }
                 .foregroundColor(Color("MainColor"))
             }
         }
+        BottomBarView(selected: 0)
     }
 }
 
